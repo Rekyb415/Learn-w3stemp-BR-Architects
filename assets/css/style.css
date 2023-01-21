@@ -1,0 +1,136 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#header
+{
+    background-color: #fff;
+    height: 54.5px;
+    padding: 8px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22.5px;
+    width: 100%;
+    font-size: 15px;
+    /* overflow: hidden; */
+    position: fixed ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);;
+    z-index: 1;
+
+}
+
+#header .logo-header
+{
+    
+    padding: 8px 16px;
+    display: inline-block;
+    letter-spacing: 4px;
+    cursor: pointer;
+    
+}
+
+#header .logo-header:hover, #header .nav-item:hover
+{
+    background-color: #ccc;
+    color: #333;
+    
+}
+
+#header .nav-list
+{
+    float: right;
+    display: flex;
+}
+
+#header .nav-item
+{
+    display: inline-block;
+    padding:  8px 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+   
+}
+
+#slider 
+{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+#slider .text-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 14px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    
+    
+}
+#slider .text-content .text-logo
+{
+    padding: 8px 16px;
+    color:#fff;
+    background-color:#000;
+    opacity: 0.75;
+}
+#slider .text-content .text-name
+{
+    text-align: center;
+    color: f1f1f1;
+}
+.content-header
+{
+    padding: 16px 0px;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+#content
+{
+    padding: 8px 16px;
+}
+#project 
+{
+    padding: 32px 16px;
+
+}
+#project-content{
+    text-align: center;
+}
+.house
+{
+    display: inline-block;
+    position: relative;
+    width: 21.5em;
+    
+}
+.house-img
+{
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+.house-dsc
+{
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0x;
+    left: 8px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    
+}
